@@ -1,0 +1,41 @@
+body{
+    background-color: #FAACA8;
+background-image: linear-gradient(to left, #FAACA8 0%, #DDD6F3 100%);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+}
+
+.container, a{
+    text-decoration: none;
+    color: brown;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container, a:hover{
+    color:chartreuse
+}
+
+img{
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.info{
+    font-size: 15px !important;
+}
+
